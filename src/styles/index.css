@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+  
+    background-image: radial-gradient(rgb(230, 221, 255), rgb(184, 184, 223));
+    /* background-color: aliceblue; */
+}
+
+nav {
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10000;
+    justify-content: space-evenly;
+  }
+  .left > a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 2vmax;
+  
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .left > a:hover {
+    border-bottom: 2px solid crimson;
+    color: crimson;
+  }
+#getData{
+  height: 40px;
+  width: 130px;
+  background-color:crimson;
+  color:white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);  
+  cursor: pointer;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    background-color:crimson;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  .title {
+    color:white;
+    font-size: 18px;
+  }
+.img{
+    border-radius: 5px;
+}
+.loading{
+font-size: 30px;
+color: white;
+height: 50px;
+width: 100px;
+margin: auto;
+margin-top: 20%;
+font-weight: 700;
+}
